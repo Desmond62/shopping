@@ -8,6 +8,7 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 padding: 20px;
+background-color: ghostwhite;
 
 }
 
@@ -17,6 +18,9 @@ border: 1px solid rgb(246, 241, 241);
 color:  rgb(105, 102, 102);
 padding: 5px 10px;
 
+}
+.opt option{
+   font-size: 10px;
 }
 .money button {
     border: none;
@@ -40,7 +44,9 @@ text-decoration: none;
             display: flex;
             justify-content: space-around;
             align-items: center;
-            margin-top: 20px;
+            /* margin-top: 20px; */
+            background-color: ghostwhite;
+            padding: 20px 0px 30px 0px;
         }
 .span{
     display: flex;
@@ -68,11 +74,11 @@ margin-top: 2px;
  }
  .form i{
     background-color: red;
-    padding: 6px 6px 8px 6px;
+    padding: 12px 8px;
     color: white;
  }
  .shop{
-    margin-right: 150px;
+    /* margin-right: 150px; */
  }
  .par i{
     margin-left: 40px;
@@ -86,13 +92,13 @@ margin-top: 2px;
 
           /*Navbar section  */
 
-.navbar{
+.navbar1{
     background-image: url('images/person\ 3.jpg');
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
     filter: brightness(70%);
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .all{
@@ -122,6 +128,7 @@ top: 0;
  .contact h2{
     margin-top: 140px;
     font-size: 40px;
+    
  }
  .para{
     font-size: 20px;
@@ -130,94 +137,91 @@ top: 0;
     color: red;
  }
 
- .back{
-    background-color: #d7d2d2;
-    padding: 50px;
- }
 
- .frame{
-    padding: 40px 0px;
-    text-align: center;
-    background-color: white;
-    color:  rgb(105, 102, 102);
+      /*Iframe Section  */
+.frame1{
+   padding: 30px ;
+   background-color: ghostwhite;
+   text-align: center;
+}
+.frame1 h3{
+   font-size: 22px;
+   font-weight: 800;
+   margin-bottom: 10px;
+}
+.frame1 p{
+   font-size: 15px;
+}
+iframe{
+   width: 100%;
+   height: 350px;
+}
+.form-cont{
+   background-color: ghostwhite;
+   display: flex;
+   justify-content: space-around;
+   /* align-items: center; */
+   padding: 50px 0px 40px 0px;
+}
+.lorem h3{
+   font-weight: 500;
+   margin-bottom: 20px;
+}
+.lorem p{
+   width: 350px;
+   font-size: 15px;
+   margin-bottom: 5px;
+}
+.sit  p{
+   font-size: 15px;
+}
+.sit i{
+   margin-right: 10px;
+}
+.form1 input{
+   width: 250px;
+   padding: 9px 0px;
+   margin-bottom: 15px;
+   border: none;
+   border: 1px solid gainsboro;
+   font-size: 11px;
+   box-shadow: 1px 1px 4px grey;
+}
+.form-text textarea{
+   width: 100%;
+   border: none;
+   border: 1px solid gainsboro;
+   box-shadow: 1px 1px 4px grey;
 
- }
- iframe{
-    width: 100%;
-    height: 350px;
- }
-
- .back2{
-    background-color: white;
- }
- .action{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
- }
-
-
- .action-container input{
-    width: 230px;
-    padding: 6px ;
-    font-size: 13px;
-    margin-bottom: 15px;
-    margin-left: 50px;
+}
+.form1 button{
+   padding: 8px 20px;
+   margin-top: 20px;
     border: none;
-    border: 1px solid rgb(174, 171, 171); 
+   border: 1px solid gainsboro;
+   font-size: 15px;
+   box-shadow: 1px 1px 4px red;
+   color: red;
+cursor: pointer;
+}
+.form1 button:hover{
+   background-color: black;
+   color: white;
+   transition: .5s ease-in-out;
+}
 
- }
 
- .action-container1 input{
-    width: 230px;
-    padding: 6px ;
-    font-size: 13px;  
-    margin-bottom: 15px;
-    border: none;
-    border: 1px solid rgb(174, 171, 171); 
- }
- .lorem{
-    margin-top: 30px;
- }
- .lorem h2{
-    color:  rgb(88, 86, 86);
-    margin-bottom: 18px;
- 
- }
- .lorem p{
-width: 270px;
-margin-bottom: 10px;
-color:  rgb(105, 102, 102);
- }
 
- .lorem i{
-    margin-right: 10px;
- }
- .area textarea{
-    margin-left: 120px;
-    border: none;
-    border: 1px solid rgb(174, 171, 171);
 
- }
- .btn1 button{
-    margin-left: 120px;
-padding: 5px 15px;
-margin: 10px 0px 30px 120px;
-background-color: white;
-box-shadow: 4px 4px 7px red;
-border: 1px solid rgb(174, 171, 171);
 
- }
- .btn1 a{
-    color: red;
-    text-decoration: none;
-    box-shadow: 7px 7px 14px solid red;
 
- }
+
+      /* Sub Section */
  .subs{
     padding: 40px 0px;
 text-align: center;
 color:  rgb(39, 38, 38);
+background-color: ghostwhite;
 
  }
  .sub p{
@@ -225,7 +229,7 @@ font-size: 16px;
 margin-top: 5px;
  }
 
- .email input{
+ .action input{
     width: 250px;
     padding: 6px ;
     margin-top: 20px;
@@ -234,17 +238,24 @@ margin-top: 5px;
     border: 1px solid rgb(216, 211, 211); 
  }
 
- .email button{
+ .action button{
     padding: 6px 15px;
     background-color: red;
 border: none;
+margin-top: 20px;
+color: white;
  }
+.action{
+   display: flex;
+   justify-content: center;
 
- .email a{
-    text-decoration: none;
-    color: white;
- }
+}
+.action button:hover{
+background-color: black;
+}
 
+
+ /* Footer section */
  #footer-container{
     background-color: #252222;
     padding: 40px 0px 20px 0px;
@@ -263,7 +274,7 @@ border: none;
     font-size: 22px;
  }
  .footer p{
-    font-size: 15px;
+    font-size: 13px;
     margin-bottom: 4px;
     color: rgb(186, 179, 179);
 
@@ -274,6 +285,10 @@ border: none;
     padding: 6px;
     border: 1px solid white;
     margin-left: 6px;
+ }
+  .footer a i:hover{
+   color: black;
+   background-color: gainsboro;
  }
 
  .las-footer{
@@ -288,401 +303,364 @@ border: none;
  .lass i{
    margin-left: 25px;
  }
-
- @media(max-width: 936px){
-   .action-container input{
-      width: 200px;
-      padding: 6px ;
-      font-size: 13px;
-      margin-bottom: 15px;
-      margin-left: 50px;
-   }
-   .area textarea{
-      margin-left: 80px;
-      width: 250px;
-      height: 100px;
-  
-   }
-   .btn1 button{
-      margin-left: 80px;
-  padding: 5px 15px;
-  margin: 10px 0px 30px 120px;
- 
-  
-   }
-  
-   .action-container1 input{
-      width: 200px;
-      padding: 6px ;
-      font-size: 13px;  
-     
-   }
-  
-   .lorem p{
-  width: 240px;
-   }
- }
- @media(max-width: 936px){
-   .action-container input{
-      width: 180px;
-      padding: 6px ;
-      font-size: 13px;
-      margin-bottom: 15px;
-      margin-left: 50px;
-   }
-     
-   .action-container1 input{
-      width: 180px;
-      padding: 6px ;
-      font-size: 13px;  
-     
-   }
-
- }
- @media(max-width: 861px){
-   .form input{
-      width: 300px;
-      padding: 6px 0px;
-      }
- }
- @media(max-width: 825px){
-   .action-container input{
-      width: 170px;
-      padding: 6px ;
-      font-size: 13px;
-      margin-bottom: 15px;
-      margin-left: 25px;
-     
-  
-   }
-  .lorem p {
-   font-size: 15px;
-  }
-   .action-container1 input{
-      width: 170px;
-      padding: 6px ;
-      font-size: 13px;  
-      margin-bottom: 15px;
-      border: none;
-      border: 1px solid rgb(174, 171, 171); 
-  
-  
-   }
-   .lorem{
-      margin-top: 30px;
-   }
-   .lorem h2{
-      color:  rgb(88, 86, 86);
-      margin-bottom: 18px;
-   font-size: 18px;
-   }
-   .lorem p{
-  width: 220px;
-  margin-bottom: 10px;
-  color:  rgb(105, 102, 102);
-   }
- }
- @media(max-width: 763px){
-.sub h2{
-   font-size: 20px;
-}
-.footer h2{
-   font-weight: 200;
-   margin-bottom: 10px;
-   font-size: 18px;
-}
-.footer p{
-   font-size: 12px;
-}
-.footer a i{
+ .lass a{
    color: white;
-   margin-top: 12px;
-   padding: 4px;
+ }
+
+ @media(max-width: 1000px){
+   .lorem p{
+      width: 300px;
+      font-size: 15px;
+   }
+   .lorem h3{
+      font-size: 20px;
+      font-weight: 800;
+   }
+ }
+ @media(max-width: 934px){
+   .lorem p{
+      width: 200px;
+      font-size: 15px;
+   }
+   .sit i{
+      font-size: 20px;
+   }
+   .sit{
+      margin-top: 20px;
+   }
+   
+ }
+ @media(max-width: 874px){
+ .form1 input{
+   width: 220px;
+ }
+
+ }
+ @media(max-width: 800px){
+ .lang{
+   flex-wrap: wrap;
+   text-align: center;
+ }
+ .btn{
+   width: 100%;
+ }
+ .money{
+   width: 100%;
+   margin-bottom: 10px;
+ }
+  /* .money select{
+   font-size: 12px;
+  }
+  .btn button{
+   font-size: 13px;
+  } */
+  .form input{
+   width: 300px;
+  }
+  .form1 input{
+   width: 200px;
+ }
+ .sub h2{
+   font-size: 20px;
+   margin-bottom: 5px;
+ }
+   }
+   @media(max-width: 720px){
+      .form-cont{
+         flex-wrap: wrap;
+         text-align: center;
+      }
+
+      .lorem{
+         width: 100%;
+         margin-top: 30px;
+      }
+   .lorem p{
+      /* width: 100%; */
+      margin: auto;
+      width: 400px;
+      
+   }
+   .sit p{
+      width: 100%;
+      /* text-align: center; */
+      /* text-align: justify; */
+      margin: auto;
+   }
+   .footer{
+      flex-wrap: wrap;
+      text-align: center;
+      text-align: justify;
+   }
+   .main{
+width: 50%;
+text-align: center;
+   }
+   .main2{
+      width: 50%;
+      margin-bottom: 30px;
+      text-align: center;
+         }
+         .main3{
+            width: 50%;
+            text-align: center;
+               }
+ .main4{
+width: 50%;
+text-align: center;
+   }
+         .footer h2{
+            font-size: 17px;
+            font-weight: 800;
+         }
+         .form input{
+            width: 250px;
+           }
+           .h4 h4{
+            font-size: 16px;
+         }
+         
+.all a{
+font-size: 10px;
+
 }
-.h4{
+.all select{
+font-size: 10px;
+}
+.money select{
+   font-size: 10px;
+}
+.money button{
    font-size: 15px;
 }
- }
- @media(max-width: 763px){
+.btn button{
+   font-size: 15px;
 
-   .money select{
-      font-size: 10px;
-      padding: 3px 2px;
-      }
-      .money button {
-         font-size: 10px;
-          padding: 6px 10px;
-      }
-      .btn button{
-        font-size: 10px;
-          padding: 5px 12px;
-          }       
-      .span{
-          display: flex;
-      }
-      .span i{
+}
+   }
+@media(max-width: 600px){
+   .sit i{
+      font-size: 15px;
+   }
+   .navbar1{
+      background-image: url('images/person\ 3.jpg');
+      height: 400px;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      filter: brightness(70%);
+      /* margin-top: 30px; */
+   } 
+   .span i{
       font-size: 28px;
       color: red;
       }
       .span1{
-          font-size: 20px;
+          font-size: 18px;
       }
       .span2{
-          font-size: 20px;
+          font-size: 18px;
           color: red;
       }
       .span p{
-      font-size: 8px;
+      font-size: 10px;
       margin-top: 2px;
+      /* font-weight: 800; */
+      }
+      .shop p{
+         font-size: 10px;
+      }
+      .par i{
+         margin-left: 28px;
+
       }
       .form input{
-       width: 250px;
-       padding: 6px 0px;
-       }
- }
- @media(max-width: 754px){
-   .action{
-      padding-top: 50px;
-     flex-wrap: wrap;
-   }
-   .action-container input{
-      width: 80%;
-
-  
-   }
-  
-   .action-container1 input{
-      width: 80%;
-      
-   }
-   .lorem{
-      width: 80%;
-   }
- }
- @media(max-width: 689px){
-   .cart{
-    flex-wrap: wrap;
-  }
-.span1{
-   width: 80%;
-}
-      }
-      @media(max-width: 594px){
-         .contact h2{
-            font-size: 25px;
-         }
-         .para{
-            font-size: 17px;
-         }
-         .frame h2{
-            font-size: 20px;
-         }
-         .frame p{
-            width: 400px;
-            font-size: 15px;
-            margin: auto;
-         }
-         .action{
-            padding-top: 50px;
-           flex-wrap: wrap;
-         }
-         .action-container input{
-            width: 60%;
-         }
-        
-         .action-container1 input{
-            width: 60%;
-            
-         }
-         .lorem {
-            margin: auto;
-            width: 60%;
-          
-         }
-         .area textarea{
-            margin-left: 20px;
-            width: 150px;
-            height: 70px;
-        
-         }
-         .btn1 button{
-        padding: 5px 15px;
-        margin: 10px 0px 30px 20px;
-         }
-         .footer{
-            flex-wrap: wrap;
-            text-align: center;
-            font-size: 20px;
-         }
-         .main{
-            width: 100%;
-            margin-bottom: 15px;
-         }
-         .main2{
-            width: 100%; 
-             margin-bottom: 15px;
-  
-         }
-         .main3{
-            width: 100%;  
-           margin-bottom: 15px;
-
-         }
-         .main4{
-            width: 100%; 
-            margin-bottom: 15px;
-
-         }
-         .h4{
-            font-size: 12px;
-         }
-         .sub h2{
-            font-size: 15px;
-            margin-bottom: 7px;
-         }
-         .sub p{
-            font-size: 16px;
-            margin-top: 5px;
-            width: 250px;
-            margin: auto;
-            margin-bottom: 10px;
-
-             }
-             .email input{
-                width: 150px;
-                padding: 6px ;
-             }
-             .email button{
-                padding: 6px 10px;
-             
-             }
-      }
-      @media(max-width: 530px){
-         .all{
-            flex-wrap: wrap;
-         }
-         .lass i{
-            margin-left: 10px;
-          }
-      }
-      @media(max-width: 594px){
-         .frame h2{
-            font-size: 20px;
-         }
-         .frame p{
-            width: 210px;
-            font-size: 12px;
-            margin: auto;
-         }
-      }
-      @media(max-width: 440px){
-            .span i{
-            font-size: 20px;
-            color: red;
-            }
-            .span1{
-                font-size: 17px;
-            }
-            .span2{
-                font-size: 17px;
-                color: red;
-            }
-            .span p{
-            font-size: 10px;
-            margin-top: 2px;
-            }
-            .form input{
-             width: 150px;
-             padding: 6px 0px;
-             font-size: 10px;
-             }
-       }
-       @media(max-width: 388px){
-         .lang{
-            flex-wrap: wrap;
-         }
-         .navbar{
-            background-image: url('images/person\ 3.jpg');
-            height: 400px;
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-            filter: brightness(70%);
-            margin-top: 30px;
+         width: 210px;
         }
-        .lorem {
-         margin: auto;
-         width: 95%;
-       
+}
+@media(max-width: 530px){
+
+.money select{
+   font-size: 10px;
+}
+.money button{
+   font-size: 10px;
+}
+.btn button{
+   font-size: 10px;
+
+}
+.cart{
+   flex-wrap: wrap;
+   text-align: center;
+}
+.spani{
+   width: 100%;
+/* margin: 0; */
+}
+.form{
+   width: 100%;
+   margin-bottom: 10px;
+}
+.shop{
+   width: 100%;
+}
+.form input{
+   padding: 4px 0px;
+   font-size: 10px;
+}
+.form i{
+   padding: 4px 4px 6px 4px;
+}
+.span1{
+   font-size: 15px;
+}
+.span2{
+   font-size: 15px;
+   color: red;
+}
+.span p{
+   width: 200px;
+}
+.span i{
+   /* font-size: 38px; */
+   color: red;
+   margin: auto 
+   }
+   .par i{
+      margin-left: 10px;
+      margin-top: 20px;
+
+   }
+   .form{
+      margin-top: 20px;
+   }
+   .h4 h4{
+      font-size: 15px;
+   }
+   .lass i{
+      font-size: 15px;
+   }
+   .sub h2{
+      font-size: 15px;
+      font-weight: 800;
+   }
+   .sub p{
+      width: 100%;
+      font-size: 11px;
+   }
+   .action input{
+      width: 100%;
+   }
+   .action button{
+      width: 100%;
+   }
+  
+.lorem p{
+   font-size: 11px;
+   width: 300px;
+}
+.frame1 p{
+   font-size: 11px;
+}
+.frame1 h3{
+   font-size: 15px;
+   font-weight: 800;
+}
+}
+@media(max-width: 459px){
+   .form1 button{
+      padding: 8px 20px;
+    margin-bottom: 30px;
+   }
+
+}
+
+@media(max-width: 450px){
+ .all{
+   flex-wrap: wrap;
+   padding: 10px;
+ } 
+ .money select{
+   font-size: 10px;
+}
+.money button{
+   font-size: 10px;
+}
+.btn button{
+   font-size: 10px;
+}
+.footer{
+   flex-wrap: wrap;
+   text-align: center;
+   text-align: justify;
+}
+.main{
+width: 100%;
+text-align: center;
+margin-bottom: 20px;
+
+}
+.main2{
+   width: 100%;
+   margin-bottom: 20px;
+   text-align: center;
       }
-       }
-       @media(max-width: 339px){
-       .lorem h2{
+      .main3{
+         width: 100%;
          text-align: center;
-         margin-bottom: 5px;
-       }
-        .lorem p{
-       font-size: 12px;
-         width: 80%;
-         margin: auto;
-         margin-bottom: 10px;
-       
-      }
-      .frame h2{
-         font-size: 16px;
-      }
-      .frame p{
-         width: 170px;
-         font-size: 12px;
-         margin: auto;
-      }
-      .back{
-         background-color: #d7d2d2;
-         padding: 20px;
-      }
-      .sub h2{
-         font-size: 14px;
-         margin-bottom: 7px;
-      }
-      .sub p{
-         font-size: 12px;
-         margin-top: 5px;
-         width: 250px;
-         margin: auto;
-         margin-bottom: 10px;
+         margin-bottom: 20px;
 
-          }
-          .email input{
-             width: 120px;
-             padding: 4px ;
-          }
-          .email button{
-             padding: 4px 8px;
-          
-          }
+            }
+.main4{
+width: 100%;
+text-align: center;
+}
 
-       }
-       @media(max-width: 300px){
-         .sub h2{
-            font-size: 14px;
-            width: 150px;
-            margin: auto;
-         }
-         .sub p{
-            font-size: 12px;
-            width: 200px;
-            margin: auto;
-            margin-bottom: 10px;
-   
-             }
-             .email input{
-                width: 120px;
-                padding: 4px ;
-             }
-             .email button{
-                padding: 4px 8px;
-             
-             } 
-             .email{
-               flex-wrap: wrap;
-             }
-       }
+
+}
+@media(max-width: 400px){
+   .money select{
+      font-size: 8px;
+   }
+   .money button{
+      font-size: 8px;
+   }
+   .btn button{
+      font-size: 8px;
+   }   
+   .lorem p{
+      font-size: 11px;
+      width: 100%;
+   }
+ 
+}
+@media(max-width: 362px){
+   .money select{
+      font-size: 6px;
+   }
+   .money button{
+      font-size: 6px;
+   }
+   .btn button{
+      font-size: 6px;
+   }    
+}
+@media(max-width: 325px){
+   .money select{
+      font-size: 4px;
+   }
+   .money button{
+      font-size: 4px;
+   }
+   .btn button{
+      font-size: 4px;
+   }    
+   .all{
+      padding: 10px;
+   }
+}
+
+
+
+
+

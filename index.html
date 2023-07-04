@@ -15,14 +15,14 @@
             <section>
        <div class="lang">
         <div class="money">
-         <select name="language" id=""> 
+         <select class="opt" name="language" id=""> 
         <option value="" selected> English</option>
         <option value="">French</option>
         <option value=""> Italian</option>
         <option value="">Latin</option>
         </select>
 
-        <select name="money" id="">
+        <select class="opt" name="money" id="">
             <option value="">$USD</option>
             <option value="">#Naira</option>
             <option value="">Cedi</option>
@@ -47,7 +47,7 @@
         <div class="span">
           <i class="fa fa-shopping-cart"></i>
             <div>
-           <span class="span1">daily</span><span class="span2">Shop</span>
+          <div> <span class="span1">daily</span><span class="span2">Shop</span></div>
           <div> <p> YOUR SHOPPING PARTNER</p></div>
         </div>
          </div>
@@ -55,7 +55,7 @@
          <!-- The section thats holds search -->
         <div class="form">
 <form action="">
-    <input type="search" placeholder="Search here on man" name="" id=""><a href="#"><i class="fa fa-search"></i></a>
+    <input type="text" placeholder="Search here on man" name="" id=""><a href="#"><i class="fa fa-search"></i></a>
 </form>
 </div>
 
@@ -68,11 +68,13 @@
     </section>
 
              <!--Home section  -->
-        <section class="navbar">
+        <section class="navbar1">
+           
+              
           <nav class="all">
             <div>
 <a href="#">Home</a>
-            </div>[[]]
+            </div>
             <div>
                 <select name="" id="">
                     <option value="">Men</option>
@@ -116,65 +118,64 @@
 <div class="contact">
     <h2>CONTACT</h2>
     <p class="para"><span>Home/</span><span class="conpa">Contact</span></p>
-</div>
+</div> 
         </section> 
         
         <!-- Iframe section -->
-  <section class="back">
-    <section>     
-<div class="frame">
-    <h2>We are waiting to assist you... </h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda.</p>
-   </div>
-    <hr>
-    <div>
-        <iframe src="https://www.youtube.com/embed/z-jGK2pYbEg?start=481" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen target="_blank"></iframe>
-  </div>
-</section>   
-     
-           <!--Email section  -->
-         <section class="back2">
-            <div class="action">
-            <div class="action-container">
-                <form action="">
-                   <div>
-                    <input type="text" placeholder="Your Name" required>
-                   </div>
-                   <div>                  
-                      <input type="text" placeholder="Subject" required>
-                   </div> 
-                </form>
-            </div>
-            
+<section style="background-color: #959292;padding: 30px;" id="iframe">
+    <div class="iframe-cont">
+<div class="frame1">
+<h3>We are waiting to assit you.</h3>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, sunt!</p>
+</div>
 
-                <div class="action-container1">
-                    <form action="">
-                       <div>
-                        <input type="text" placeholder="Email" required>
-                       </div>
-                       <div>                  
-                          <input type="text" placeholder="Company" required>
-                       </div> 
-                 </form>
-            </div>
+ <div>
+      <iframe src="https://www.youtube.com/embed/z-jGK2pYbEg?start=481" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen target="_blank"></iframe>
+</div>
 
-                <div class="lorem">
-                    <h2>Daily Shop</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est laborum voluptate tenetur atque debitis?</p>
-                    <p><i class="fa fa-home one"></i>Huntsville,AL 35813,USA</p>
-                    <p><i class="fa fa-phone one"></i>+ 021-343-7575</p>
-                    <p class="p3"><i class="fa fa-envelope one"></i>Email: support@dailyshop.com</p>
-              </div> 
-            </div>
-            <div class="area">
-                <textarea name="" id="" cols="45" rows="10"></textarea>
-            </div>
-            <div class="btn1">
-                <button><a href="#">send</a></button>
-            </div>
-        
-         </section>
-        </section>
+<div class="form-cont">
+
+<div class="form1">
+    <form action="">
+   <div> <input type="text" placeholder="Your Name" required></div>
+     <div><input type="text" placeholder="Subject" required></div>
+     <div class="form-text">
+        <textarea name="" id="" cols="10" rows="7" placeholder="Message"></textarea>
+     </div>
+<div>
+    <button>Send</button>
+
+</div>
+</form>
+</div>
+
+<div class="form1">
+    <form action="">
+   <div> <input type="text" placeholder="Email" required></div>
+     <div><input type="text" placeholder="Company" required></div>
+</form>
+</div>
+
+<div class="lorem">
+<h3>DailyShop</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate nisi temporibus quibusdam quo voluptatum ipsa?</p>
+
+<div class="sit">
+<p><i class="fa fa-home"></i>Huntvile,Al 31213 USA</p>
+<p><i class="fa fa-phone"></i>+ 012-342-9876</p>
+<p><i class="fa fa-envelope"></i>Email: support@dailyshop.com</p>
+</div>
+</div>
+
+</div>
+
+    </div>
+
+
+
+
+
+</section>
    
         <!-- Subscribe section -->
 
@@ -185,7 +186,14 @@
             </div>
             <div class="email">
                 <form action="">
-                    <input type="email" placeholder="Enter your email" name="" id="" required><span><button><a href="#">SUBSCRIBE</a></button></span>
+                    <div class="action">
+                         <div>
+                    <input type="email" placeholder="Enter your email" name="" id="" required>
+                    </div>
+                     <div>
+                    <button>SUBSCRIBE</button>
+                    </div>
+                    </div>
                 </form>
             </div>
         </section>
@@ -237,15 +245,16 @@
             </div>
                 <div class="las-footer">
                     <div class="h4">
-                        <h4>Designed By Markup</h4>
+                        <h4>Designed By Desmond</h4>
                     </div>
                     <div class="lass">
-                        <i class="fa fa-user"></i><i class="fa fa-home"></i><i class="fa fa-lightbulb"></i>
+                       <a href="#"> <i class="fa fa-user"></i><i class="fa fa-home"></i><i class="fa fa-lightbulb"></i></a>
                     </div>
 
                 </div>
             </footer>
     <!-- </nav>
     </section> -->
+ 
 </body>
 </html>
